@@ -4,6 +4,7 @@ import 'package:flutter_state_management_series/2_inherited_widget/start_2.dart'
 import 'package:flutter_state_management_series/3_inherited_model/start_3.dart';
 import 'package:flutter_state_management_series/4_inherited_notifier_and_change_notfier/start_4.dart';
 import 'package:flutter_state_management_series/5_provider/start_5.dart';
+import 'package:flutter_state_management_series/6_redux/start_6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -66,4 +67,6 @@ Map<Widget, String> _demos = {
       "Deep dive into understanding Inherited Notifier and Change Notifier in Flutter.",
   const Demo5():
       "Deep dive into Provider, a 3rd party state management package built on top or as a wrapper on top of Inherited Notifier",
+  const Demo6():
+      "Demo on using redux package to manage state of our application"
 };
